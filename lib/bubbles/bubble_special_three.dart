@@ -165,7 +165,7 @@ class SpecialChatBubbleThree extends CustomPainter {
         path.lineTo(w - _radius, _radius * 1.5);
 
         /// top-right curve
-        path.quadraticBezierTo(w - _radius, 0, w - _radius * 1.5, 0);
+        path.quadraticBezierTo(w - _radius, 0, w - _radius * 2, 0);
 
         canvas.clipPath(path);
         canvas.drawRRect(
@@ -189,7 +189,7 @@ class SpecialChatBubbleThree extends CustomPainter {
         path.quadraticBezierTo(0, h, _radius * 1.5, h);
 
         /// bottom line
-        path.lineTo(w - _radius * 1.5, h);
+        path.lineTo(w - _radius * 2, h);
 
         /// bottom-right curve
         path.quadraticBezierTo(w - _radius, h, w - _radius, h - _radius * 1.5);
@@ -198,7 +198,7 @@ class SpecialChatBubbleThree extends CustomPainter {
         path.lineTo(w - _radius, _radius * 1.5);
 
         /// top-right curve
-        path.quadraticBezierTo(w - _radius, 0, w - _radius * 1.5, 0);
+        path.quadraticBezierTo(w - _radius, 0, w - _radius * 2, 0);
 
         canvas.clipPath(path);
         canvas.drawRRect(
