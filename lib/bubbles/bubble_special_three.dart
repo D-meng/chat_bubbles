@@ -127,7 +127,7 @@ class SpecialChatBubbleThree extends CustomPainter {
     required this.tail,
   });
 
-  final double _radius = 10.0;
+  final double _radius = 12.0;
 
   @override
   void paint(Canvas canvas, Size size) {
