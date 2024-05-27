@@ -159,7 +159,7 @@ class SpecialChatBubbleThree extends CustomPainter {
         path.quadraticBezierTo(w - _radius * 1, h, w, h);
 
         /// bottom-right tail curve 2
-        path.quadraticBezierTo(w - _radius * 0.8, h, w - _radius, h - _radius * 1.5);
+        path.quadraticBezierTo(w - _radius * 0.5, h, w - _radius, h - _radius * 1.5);
 
         /// right line
         path.lineTo(w - _radius, _radius * 1.5);
